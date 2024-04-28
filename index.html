@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dallas Cars</title>
+    <style>
+        /* Add your vibrant colors here */
+        body {
+            background-color: #f9f9f9;
+            font-family: Arial, sans-serif;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .car {
+            border: 1px solid #ddd;
+            padding: 20px;
+            margin-bottom: 20px;
+            background-color: #fff;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Dallas Cars</h1>
+        <p>Your Trusted Source for Quality Cars</p>
+        <button>About</button>
+    </header>
+    <div class="container">
+        <div class="car">
+            <img src="car1.jpg" alt="Car 1">
+            <h2>Toyota Camry</h2>
+            <p>Type: Sedan</p>
+            <p>Color: Silver</p>
+            <p>Model: 2022</p>
+        </div>
+        <div class="car">
+            <img src="car2.jpg" alt="Car 2">
+            <h2>Ford Mustang</h2>
+            <p>Type: Coupe</p>
+            <p>Color: Red</p>
+            <p>Model: 2021</p>
+        </div>
+        <!-- Add more cars here -->
+    </div>
+    <footer>
+        © 2024 Dallas Cars. All rights reserved.
+    </footer>
+    <div class="contact-form">
+        <h2>Contact Us</h2>
+        <form action="submit.php" method="post">
+            <input type="text" name="full_name" placeholder="Full Name" required>
+            <input type="tel" name="contact_number" placeholder="Contact Number" required>
+            <input type="email" name="email" placeholder="Email Address" required>
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+</body>
+</html>
